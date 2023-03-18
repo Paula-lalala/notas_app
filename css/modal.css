@@ -29,3 +29,42 @@
     font-weight: bolder;
     cursor: pointer;
 }
+
+form .input-content{
+    display: flex;
+    flex-direction:column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    /* margin: 8px 0px; */
+}
+
+.mg-botton-16{
+    margin-bottom: 16px;
+}
+
+.button-content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.button-content button{
+    background-color: #474646;
+    border: 0px;
+    height: 30px;
+    width: 100px;
+    color: #fff;
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+.button-content button:hover {
+    background-color: #fff;
+    border: 1px solid #474646;
+    color:#474646;
+}
+
+.close-modal{
+    /* visibility: hidden; */
+    display: none;
+}
